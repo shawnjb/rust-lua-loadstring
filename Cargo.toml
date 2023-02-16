@@ -1,0 +1,8 @@
+[package]
+name = "lua-loadstring"
+version = "0.1.0"
+authors = ["shawnjb"]
+edition = "2018"
+
+[dependencies]
+mlua = { version = "0.8.7", features = ["lua51"] }
